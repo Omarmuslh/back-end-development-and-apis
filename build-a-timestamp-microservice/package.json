@@ -16,5 +16,7 @@
     "freecodecamp"
   ],
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {},
+  "author": ""
 }
