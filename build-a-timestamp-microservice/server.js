@@ -38,7 +38,7 @@ app.get("/api/:date?", (req, res) => {
   });
 });
 
-const PORT = 8000;
+const PORT = process.env.PORT || 8080;
 const listener = app.listen(PORT, function () {
   console.log("Your app is listening on port " + listener.address().port);
 });
